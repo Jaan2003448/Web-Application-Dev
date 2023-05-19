@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <script type="module">
+            import {halfOf, multiply} from './lib/lib.js';
+            console.log(halfOf(84));
+            console.log(multiply(21,2))
+            import doSomething from './lib/doSomething.js';
+            doSomething();
+            import {touch, flag} from './lib/validator.js';
+            console.log(flag);
+            touch();
+            console.log(flag);
+            import {Vehicle, Car, car} from './lib/class.js';
+            console.log(car);
+            import {parent} from './lib/closures.js';
+            console.log(parent.name);
+        </script>
+    </head>
+</html>
